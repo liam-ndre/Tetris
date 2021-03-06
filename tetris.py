@@ -181,3 +181,7 @@ def create_grid(locked_positions={}):
                 grid[i][j] = c
     return grid
 
+def get_shape():
+    global shapes, shape_colors
+ 
+    return Piece(5, 0, random.choice(shapes))
