@@ -244,3 +244,7 @@ def main():
                     if not valid_space(current_piece, grid):
                         current_piece.y -= 1
 
+        draw_window(win)
+
+win = pygame.display.set_mode((s_width, s_height))
+pygame.display.set_caption(\'Tetris\')
